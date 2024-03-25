@@ -12,7 +12,7 @@ Download all files to the user directory. Like /home/user_name/
 
 - `~/training_args.py`: Script for setting training parameters such as learning_rate, num_train_epochs, per_device_train_batch_size.
 - `~/trainer.py`: Modify the display effect during training. Calculate F1 score at the end of each epoch.
-- `~/work/data/`: Training datasets. Each dataset is divided into training data for prompt and fine-tuning. (Due to GitHub's file size upload limit, the Company dataset needs to be downloaded from the original data repository: [https://github.com/anhaidgroup/deepmatcher/](https://github.com/anhaidgroup/deepmatcher/))
+- `~/work/data/`: Training datasets, seven structure datasets and four dirty datasets. Each dataset is divided into training data for prompt and fine-tuning.
 
 ### Prompt Training
 - `~/work/train_prompt.py`: Script for prompt training. Modify `data_dir` to set the path for training data. The `template` object of the `ManualTemplate` class represents hard prompt, while the `template` object of the `SoftTemplate` class represents soft prompt.
